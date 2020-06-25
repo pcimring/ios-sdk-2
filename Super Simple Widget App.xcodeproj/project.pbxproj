@@ -3,15 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		15C07CF8286C1737FDD6941C /* Pods_Super_Simple_Widget_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE31384CD97A38AF5CACBBA0 /* Pods_Super_Simple_Widget_App.framework */; };
 		67807E09B143F0BBD024C793 /* Pods_Super_Simple_Widget_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F803DE13FA874927AC065D05 /* Pods_Super_Simple_Widget_AppTests.framework */; };
+		C60A1E53249E9F4800D0291B /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A1E52249E9F4800D0291B /* NewsItem.swift */; };
+		C60A1E55249E9F5A00D0291B /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A1E54249E9F5A00D0291B /* ItemStore.swift */; };
+		C60A1E58249EA07E00D0291B /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A1E57249EA07E00D0291B /* ItemsViewController.swift */; };
+		C6499F33249BF55500187501 /* JSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6499F32249BF55500187501 /* JSViewController.swift */; };
+		C6499F35249C833000187501 /* sampleContentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = C6499F34249C833000187501 /* sampleContentPage.html */; };
 		C6823EDE248F59300062955D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6823EDD248F59300062955D /* AppDelegate.swift */; };
 		C6823EE0248F59300062955D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6823EDF248F59300062955D /* SceneDelegate.swift */; };
-		C6823EE2248F59300062955D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6823EE1248F59300062955D /* ViewController.swift */; };
+		C6823EE2248F59300062955D /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6823EE1248F59300062955D /* SimpleViewController.swift */; };
 		C6823EE5248F59300062955D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6823EE3248F59300062955D /* Main.storyboard */; };
 		C6823EE7248F59320062955D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6823EE6248F59320062955D /* Assets.xcassets */; };
 		C6823EEA248F59320062955D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6823EE8248F59320062955D /* LaunchScreen.storyboard */; };
@@ -44,10 +49,15 @@
 		67A801369B576F6CDAF76D84 /* Pods_Super_Simple_Widget_App_Super_Simple_Widget_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Super_Simple_Widget_App_Super_Simple_Widget_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6766FEB8DDEEC92CCDD86C /* Pods-Super Simple Widget AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Simple Widget AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Super Simple Widget AppTests/Pods-Super Simple Widget AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A295E0C5CAD259AFCD15E1DA /* Pods-Super Simple Widget App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Super Simple Widget App.release.xcconfig"; path = "Target Support Files/Pods-Super Simple Widget App/Pods-Super Simple Widget App.release.xcconfig"; sourceTree = "<group>"; };
+		C60A1E52249E9F4800D0291B /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		C60A1E54249E9F5A00D0291B /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		C60A1E57249EA07E00D0291B /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		C6499F32249BF55500187501 /* JSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSViewController.swift; sourceTree = "<group>"; };
+		C6499F34249C833000187501 /* sampleContentPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sampleContentPage.html; sourceTree = "<group>"; };
 		C6823EDA248F59300062955D /* Super Simple Widget App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Simple Widget App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6823EDD248F59300062955D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6823EDF248F59300062955D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6823EE1248F59300062955D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6823EE1248F59300062955D /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
 		C6823EE4248F59300062955D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6823EE6248F59320062955D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6823EE9248F59320062955D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,8 +111,16 @@
 				8B6766FEB8DDEEC92CCDD86C /* Pods-Super Simple Widget AppTests.debug.xcconfig */,
 				4EE7CBF92D71FD9EE47F8A01 /* Pods-Super Simple Widget AppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C60A1E56249EA03500D0291B /* ItemModel */ = {
+			isa = PBXGroup;
+			children = (
+				C60A1E54249E9F5A00D0291B /* ItemStore.swift */,
+				C60A1E52249E9F4800D0291B /* NewsItem.swift */,
+			);
+			path = ItemModel;
 			sourceTree = "<group>";
 		};
 		C6823ED1248F59300062955D = {
@@ -132,11 +150,15 @@
 			children = (
 				C6823EDD248F59300062955D /* AppDelegate.swift */,
 				C6823EDF248F59300062955D /* SceneDelegate.swift */,
-				C6823EE1248F59300062955D /* ViewController.swift */,
 				C6823EE3248F59300062955D /* Main.storyboard */,
 				C6823EE6248F59320062955D /* Assets.xcassets */,
 				C6823EE8248F59320062955D /* LaunchScreen.storyboard */,
 				C6823EEB248F59320062955D /* Info.plist */,
+				C6823EE1248F59300062955D /* SimpleViewController.swift */,
+				C6499F32249BF55500187501 /* JSViewController.swift */,
+				C60A1E57249EA07E00D0291B /* ItemsViewController.swift */,
+				C6499F34249C833000187501 /* sampleContentPage.html */,
+				C60A1E56249EA03500D0291B /* ItemModel */,
 			);
 			path = "Super Simple Widget App";
 			sourceTree = "<group>";
@@ -283,6 +305,7 @@
 				C6823EEA248F59320062955D /* LaunchScreen.storyboard in Resources */,
 				C6823EE7248F59320062955D /* Assets.xcassets in Resources */,
 				C6823EE5248F59300062955D /* Main.storyboard in Resources */,
+				C6499F35249C833000187501 /* sampleContentPage.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +467,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6823EE2248F59300062955D /* ViewController.swift in Sources */,
+				C6823EE2248F59300062955D /* SimpleViewController.swift in Sources */,
+				C60A1E53249E9F4800D0291B /* NewsItem.swift in Sources */,
+				C60A1E55249E9F5A00D0291B /* ItemStore.swift in Sources */,
+				C6499F33249BF55500187501 /* JSViewController.swift in Sources */,
+				C60A1E58249EA07E00D0291B /* ItemsViewController.swift in Sources */,
 				C6823EDE248F59300062955D /* AppDelegate.swift in Sources */,
 				C6823EE0248F59300062955D /* SceneDelegate.swift in Sources */,
 			);

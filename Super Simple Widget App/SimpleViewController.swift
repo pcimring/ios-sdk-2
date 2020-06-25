@@ -9,7 +9,7 @@
 import UIKit
 import TaboolaSDK
 
-class ViewController: UIViewController {
+class SimpleViewController: UIViewController {
     
     override func viewDidLoad() {
         
@@ -20,14 +20,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
         // Instantiate the Widget and add it to the View...
-        let myFrame = CGRect(x: (view.bounds.size.width - 200)/2, y: 140, width: 200, height: 150) // let's center our Widget
+        // 300 px wide and centered
+        
+        // Feed...
+        let myFrame = CGRect(x: (view.bounds.width - 300)/2, y: 140, width: 300, height: TaboolaView.widgetHeight())
+        // Widget...
+        //let myFrame = CGRect(x: (view.bounds.width - 300)/2, y: 140, width: 300, height: 200)
+
         let taboolaView = TaboolaView(frame: myFrame)
         view.addSubview(taboolaView)
         
         // Set the view properties...
                 
         // The Widget Template ID
-        taboolaView.mode = "alternating-widget-without-video-1x4"
+        taboolaView.mode = "alternating-widget-1x2"
 
         // Your Account ID
         taboolaView.publisher = "sdk-tester-demo"
@@ -43,7 +49,7 @@ class ViewController: UIViewController {
         //taboolaView.pageId = "my-page-id"
 
         // The Placement ID for the Widget
-        taboolaView.placement = "Below Article"
+        taboolaView.placement = "Mid Article"
 
         //The Target Type of the page on which the widget is displayed. If you're not sure, contact your account manager.
         taboolaView.targetType = "mix"
