@@ -32,7 +32,6 @@ class ItemsViewController: UITableViewController {
     var taboolaWidget: TaboolaView!
     var taboolaFeed: TaboolaView!
     var taboolaWidgetHeight: CGFloat = 0.0
-    var taboolaFeedHeight: CGFloat = 0.0
     var didLoadFeed = false
     
     lazy var viewId: String = {
@@ -162,7 +161,7 @@ class ItemsViewController: UITableViewController {
 
 extension ItemsViewController: TaboolaViewDelegate {
     func taboolaView(_ taboolaView: UIView!, didLoadPlacementNamed placementName: String!, withHeight height: CGFloat) {
-        // The Widget and Feed fire the 'didLoadPlacementNamed' event after loading. We are interested in this event for the Widget only...
+        // The Widget and Feed fire the 'didLoadPlacementNamed' callback after loading. We are interested in this event for the Widget only...
         
         
         if placementName == TaboolaSection.widget.placement {
